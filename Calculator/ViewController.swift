@@ -10,11 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    @IBOutlet var label: UILabel!
+    @IBOutlet var label: UILabel!//計算結果を表示する
     var number1:Int = 0
     var number2:Int = 0
     var number3:Int = 0
-    var ope:Int = 0 //どの四則演算かを判定する
+    var ope:Int = 0 //どの四則演算をするかを判定するための変数
     
     @IBAction func select0() {
         number1 = number1*10 + 0
